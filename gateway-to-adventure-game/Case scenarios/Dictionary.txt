@@ -1,0 +1,49 @@
+jobtype_Nixoterra = ["Snowboard Instructor", "Ski Technician", "Snowmaker"]
+jobtype_Aquamundi = ["Dive Instructor", "Boat Captain", "Public Safety Diver"]
+jobtype_Silvia = ["Forest technician", "Forest Equipment Operator", "Forest Ranger"]
+jobtype_Montelocus = ["Climbing Guide", "Safety driver"]
+
+qualQuizNixoterraDict =
+{"What is the freezing point of snow?\n a. 0 degrees celcius\n b. 30 degrees celcius\n c. 100 degrees celcius\n d. -5 degrees celcius": "d",
+"Which ball do we use in the snow ball activity at snow world?\n a. Leather Ball\n b. Foot Ball\n c. Snow Ball\n d. All of the above": "d",
+"Which cartoon character does snow world has?\n a. Penguin\n b. Olaf\n c. Snowman\n d. All of the above": "d",
+""}
+
+qualQuizAquamundiDict =
+{"Spell Water\n a. Water\n b. Waiter": "a",
+"Is water same as wind?\n a.Yes\n b. No": "b",
+"Do you know how to swim?\n a. Yes\n b. No": "a"}
+
+qualQuizSilviaiDict = {"Can you use a GPS device effectively?\n a. Yes\n b. No": "a",
+"Which of the following statement is true?\n a. Forest is on land\n; b. Forest is under water": "a",
+"What not to do in a Forest world?\n a. Start fire\n b. Climb on Tree\n c. Enjoy Nature": "a"}
+
+qualQuizMontelocusDict = {"Do you know how to use mountain gear?\n a. Yes\n b. No": "a",
+"Are you a wayfinder or a lost sheep?\n a. Wayfinder\n b. Lostsheep": "a",
+"Are you afraid of heights?\n a. Yes\n b. No": "b"}
+
+essentialsDict = {snowWorld: ["Gloves", "Snowboots", "Ski Goggles", "Wool Socks", "Hand warmer"],
+waterWorld: ["Swimcap", "Bandana", "Float suit", "Rash guard", "Alternate Air Source"],
+forestWorld: ["Mosquito Repellent", "Backpack", "Poncho", "Hiking boots", "Trail shoes"],
+mountainWorld: ["Climbing Helmet", "Ropes", "Harness", "Mountaineering Boots", Crampons"]}
+
+survivalQuizNixoterraDict1 =
+{"Describe a typical workweek for a snowboard instructor\n a. Sleep all week long\n b. Play with Ice\n c. Instruct and provide training to groups/individuals": "c",
+"what's your level of experience with edging, waxing and mounting skis and snowboard?\n a. Novice\n b. Proficient\n c. expert": ["b", "c"]}
+
+survivalQuizNixoterraDict2 =
+{"What equipment is/are required for working as an experienced snowmaker\n a. Snow guns\n b. hoses\n c. hydrants\n d. All of the above": "d"}
+
+survivalQuizAquamundiDict1 =
+{"Why do you want to be a Dive instructor?\n a. I like the word Instructor\n b. I love teaching diving": "b",
+"Do you have a Captain's license?\n" a. Yes\n b. No"}
+
+survivalQuizAquamundiDict2 =
+{"In case of any emergency call, what will be your first step?\n a. Ignore\n b. Immediately act on it" , "b"}
+
+survivalQuizSilviaDict1 =
+{"Name one of the heavy equipments used in the forest operations\n a. Dump trucks\n b. Toycar\n c. Teddybear": "a"}
+
+survivalQuizMontelocusDict1 =
+{"What would you select to  climb in tricky mountain conditions?\n a. Mountaineering boots\n  b. mountains": "a",
+"What would you do if someone calls for help?\n a. It's their problem, I will just ignore\n b. Go and help them": "b"}

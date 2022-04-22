@@ -1,0 +1,69 @@
+Case 1:
+If essentials = 3
+no perks
+
+remaining coins: 85
+
+step 1: Buy a gem
+
+Buy 1 gem : -25 coins
+remaining coins : 60 coins
+total gems collected : 1
+
+Step 2: Survival quizzes
+
+#Scenario 1: User succeeds in both
+
+Survival Quiz 1 - +10 coins ( 5 coins for each right answer)
+#if user answers both questions correct:
+remaining coin : 70
+total gems collected : 2
+
+Survival Quiz 2 - +10 coins ( 5 coins for each right answer)
+#if user answers both questions correct:
+remaining coin : 80
+total gems collected : 3
+
+Go to capital city:
+coins spent : 20
+remaining coin : 60
+total gems collected : 4
+
+User wins with below:
+remaining coin : 60
+total gems collected : 4
+------------------------------------
+Starting point:
+Buy 1 gem : -25 coins
+remaining coins : 60 coins
+total gems collected : 1
+-----------
+#scenario 2 (partial success)
+If user fails in 1 quiz and passes the other one, gets to reattempt the quiz that he failed.
+---------------------
+Survival Quiz 1 - +10 coins (gets 10 coins if quiz is successful)
+#if user answers only 1 question correct:
+remaining coin : 60
+total gems remaining : 1
+#not eligible for reattempt
+
+Survival Quiz 2 - +10 coins ( 5 coins for each right answer)
+#if user answers both questions correct:
+remaining coin : 70
+total gems remaining : 2
+
+#Options are: go to the capital city or quit the game
+
+User goes to capital city.
+ remaining coin : 50
+ total gems remaining : 3
+
+ user buys a gem with 25 coins
+
+ User wins with below data:
+ remaining coin : 25
+ total gems remaining : 4
+
+--------------------------------------------------
+#Scenario 3:
+If User fails in both survival quiz, he loses without even going to the capital city. (no capital city) - 0% in both cases
